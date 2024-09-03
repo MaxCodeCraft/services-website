@@ -1,6 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import Contact from "@/components/sections/Contact";
 import Starfield from "react-starfield";
+import MailSection from "@/components/sections/MailSection";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         backgroundColor="black"
       />
       <Hero />
-      <Contact />
+      <MailSection />
+      {/* <Contact /> */}
     </main>
   );
 }
