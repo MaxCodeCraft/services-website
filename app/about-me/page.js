@@ -1,8 +1,6 @@
-import Hero from "@/components/sections/Hero";
-import Contact from "@/components/sections/Contact";
 import Starfield from "react-starfield";
 
-export default function Home() {
+export default function AboutMe() {
   return (
     <main className="flex w-screen flex-col overflow-x-hidden">
       <Starfield
@@ -11,8 +9,6 @@ export default function Home() {
         speedFactor={0.05}
         backgroundColor="black"
       />
-      <Hero />
-      <Contact />
     </main>
   );
 }
