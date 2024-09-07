@@ -6,14 +6,14 @@ import YellowButton from "../buttons/YellowButton";
 
 export default function Header() {
   return (
-    <header className="flex h-20 w-full items-center justify-between bg-tardisBlue px-5 md:h-28 lg:px-16">
+    <div className="flex h-20 w-full items-center justify-between bg-tardisBlue px-5 md:h-28 md:px-10 lg:px-16">
       <div className="">
         <Link href={"/"}>
           <Image
             src={"/images/mcc-logo.png"}
             width={877}
             height={168}
-            className="w-48 object-contain md:w-32 lg:w-64"
+            className="w-48 object-contain lg:w-64"
             alt="MaxCodeCraft Logo"
           />
         </Link>
@@ -102,9 +102,9 @@ export default function Header() {
           </Link>
         </li>
       </ul>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <YellowButton url={"/contact"} title={"C'est parti !"} />
       </div>
-    </header>
+    </div>
   );
 }

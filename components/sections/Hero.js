@@ -6,12 +6,12 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="flex w-full justify-center bg-tardisBlue py-16">
-      <div className="flex w-10/12 flex-col justify-center rounded-xl bg-spatialGrey/40 md:flex-row">
-        <div className="flex w-1/2 flex-col justify-center gap-12 px-16">
-          <h1 className="font-goodtimes text-3xl text-gallifreyanGold">
+      <div className="shadow-test flex w-11/12 flex-col justify-center rounded-xl bg-spatialGrey/40 md:flex-row lg:w-10/12">
+        <div className="flex flex-col justify-center gap-6 p-6 md:w-1/2 lg:gap-12 lg:p-16">
+          <h1 className="text-center font-goodtimes text-xl text-gallifreyanGold lg:text-left lg:text-3xl">
             Votre Partenaire Web Local et Sur-Mesure
           </h1>
-          <p className="text-xl text-white">
+          <p className="text-white">
             Je suis spécialisé dans la création de sites web personnalisés pour
             les artisans, TPE, et PME de la région. Avec une approche centrée
             sur la proximité, la confiance, et un travail de qualité, je conçois
@@ -21,7 +21,7 @@ export default function Hero() {
             Choisissez un service web qui vous ressemble, avec MaxCodeCraft.
           </p>
         </div>
-        <div className="flex w-1/2 justify-center">
+        <div className="flex justify-center md:w-1/2">
           <Image
             src={"/images/am-img.png"}
             width={750}

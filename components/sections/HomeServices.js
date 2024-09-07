@@ -7,28 +7,28 @@ export default function HomeServices() {
         <ServiceCard
           icon={"faScrewdriverWrench"}
           title="Sites personnalisés"
-          desc="Je créé vos sites sur mesures, ici pas de templates de Wordpress impersonnels, nous créerons ensemble le site de vos rêves qui vous ressemble !"
+          desc="Je conçois des sites web sur mesure, adaptés à vos besoins spécifiques. Ici, pas de modèles standardisés ou de templates impersonnels. Ensemble, nous créons un site unique qui reflète parfaitement l'identité de votre entreprise et répond à vos objectifs. Chaque détail est pensé pour vous offrir un site qui vous ressemble vraiment."
           url={"/services/custom-websites"}
           faIcon={"faArrowRight"}
         />
         <ServiceCard
           icon={"faEarthEurope"}
           title="Landing Pages & Microsites"
-          desc="Besoin d'une simple page pour une campagne publicitaire, un lancement de produit ? Créons la page qui vous apportera de la conversion !"
+          desc="Vous avez besoin d'une page dédiée pour une campagne publicitaire ou un lancement de produit ? Je conçois des landing pages et microsites efficaces, spécialement pensés pour maximiser vos conversions. Ensemble, nous créerons une page qui capte l'attention de vos visiteurs et transforme leur intérêt en actions concrètes."
           url={"/services/landing-pages"}
           faIcon={"faArrowRight"}
         />
         <ServiceCard
           icon={"faPaintRoller"}
           title="Refonte de Sites Web"
-          desc="Votre site est ancien, vous semble morose ou est très lent ? Donnons lui un coup de modernité et de rapidité qui reflètera le dynamisme de votre entreprise !"
+          desc="Votre site web est vieillissant, manque de dynamisme ou souffre de lenteurs ? Il est temps de lui donner un nouveau souffle ! Ensemble, modernisons votre site pour qu'il reflète le dynamisme et la vitalité de votre entreprise, tout en améliorant ses performances pour une navigation plus fluide et rapide."
           url={"/services/website-rework"}
           faIcon={"faArrowRight"}
         />
         <ServiceCard
           icon={"faToolbox"}
           title="Applications Web"
-          desc="Besoin d'un portail client, d'une application web complexe ? Découvrez ce que nous pourrons réaliser ensemble !"
+          desc="Vous avez besoin d'un portail client ou d'une application web sur mesure ? Ensemble, explorons les possibilités et créons une solution qui répondra parfaitement à vos besoins les plus complexes. Découvrez tout ce que nous pouvons accomplir pour optimiser vos processus et offrir une expérience utilisateur unique."
           url={"/services/web-applications"}
           faIcon={"faArrowRight"}
         />

@@ -2,8 +2,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRocket } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faRocket, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function YellowButton(props) {
   let icon;

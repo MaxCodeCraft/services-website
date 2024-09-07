@@ -23,6 +23,9 @@ module.exports = {
         tardisBlue: "#003262",
         spatialGrey: "#1A1C1C",
       },
+      boxShadow: {
+        test: "rgba(150, 150, 255, 0.1) 0px 22px 70px 4px;",
+      },
     },
   },
   daisyui: {

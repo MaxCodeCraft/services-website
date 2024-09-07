@@ -1,9 +1,8 @@
-import { Offside } from "next/font/google";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import { Offside, Poppins } from "next/font/google";
 import "./globals.css";
 
 const offside = Offside({ subsets: ["latin"], weight: "400" });
+const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "MaxCodeCraft | Votre partenaire de création Web sur-mesure local",
@@ -14,11 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={offside.className}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <body className={offside.className}>{children}</body>
     </html>
   );
 }
