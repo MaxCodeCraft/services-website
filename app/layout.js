@@ -6,9 +6,9 @@ import "./globals.css";
 const offside = Offside({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "MaxCodeCraft | Maxime Bocquet",
+  title: "MaxCodeCraft | Votre partenaire de création Web sur-mesure local",
   description:
-    "Développeur full stack spécialisé dans la méthode MERN (MongoDB, Express.js, React, Node.js) basé à Nice, France. Expertise en développement web, applications web modernes et solutions logicielles. Disponible pour des projets freelance et collaborations.",
+    "Développeur full stack spécialisé dans la méthode MERN (MongoDB, Express.js, React, Node.js) basé à Nice. Expertise en développement web, applications web modernes.",
 };
 
 export default function RootLayout({ children }) {

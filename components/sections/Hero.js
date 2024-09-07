@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="flex w-full justify-center bg-tardisBlue py-16">
       <div className="flex w-10/12 flex-col justify-center rounded-xl bg-spatialGrey/40 md:flex-row">
-        <div className="flex w-1/2 flex-col justify-center gap-4 px-16">
+        <div className="flex w-1/2 flex-col justify-center gap-12 px-16">
           <h1 className="font-goodtimes text-3xl text-gallifreyanGold">
             Votre Partenaire Web Local et Sur-Mesure
           </h1>

@@ -1,6 +1,6 @@
 import Starfield from "react-starfield";
 
-export default function Services() {
+export default function CustomWebsites() {
   return (
     <main className="flex w-screen flex-col overflow-x-hidden">
       <Starfield

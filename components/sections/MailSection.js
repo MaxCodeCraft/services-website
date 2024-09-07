@@ -1,6 +1,6 @@
 export default function MailSection() {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-8 bg-tardisOrange py-16">
+    <div className="flex w-full flex-col items-center justify-center gap-12 bg-tardisOrange py-16">
       <h2 className="font-goodtimes text-3xl">
         Commençons un projet ensemble !
       </h2>

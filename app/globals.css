@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Digitalix";
-  src: url("/assets/digitalix.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "GoodTimes";
   src: url("/assets/goodtimes.otf") format("opentype");
   font-weight: normal;

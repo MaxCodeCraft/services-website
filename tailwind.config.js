@@ -15,7 +15,6 @@ module.exports = {
         orangeToYellow: "linear-gradient(to left, #ffd700, #ff8c00)",
       },
       fontFamily: {
-        digitalix: ["Digitalix", "sans-serif"],
         goodtimes: ["GoodTimes", "sans-serif"],
       },
       colors: {

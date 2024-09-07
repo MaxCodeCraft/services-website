@@ -1,6 +1,6 @@
 import Starfield from "react-starfield";
 
-export default function Pricing() {
+export default function Projects() {
   return (
     <main className="flex w-screen flex-col overflow-x-hidden">
       <Starfield

@@ -19,7 +19,7 @@ export default function Header() {
         </Link>
       </div>
       {/* Version Mobile */}
-      <div className="dropdown dropdown-end cursor-pointer text-white md:hidden">
+      <div className="dropdown dropdown-end cursor-pointer text-white lg:hidden">
         <FontAwesomeIcon icon={faBars} size="xl" role="button" tabIndex={0} />
         <ul
           tabIndex={0}
@@ -49,60 +49,36 @@ export default function Header() {
         </ul>
       </div>
       {/* Version Desktop */}
-      {/* <div className="hidden items-center justify-center gap-12 md:flex">
-        <Link href={"/about-me"}>
-          <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
-            à PROPOS
-          </p>
-        </Link>
-        <Link href={"/services"}>
-          <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
-            Services
-          </p>
-        </Link>
-        <Link href={"/pricing"}>
-          <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
-            Prix
-          </p>
-        </Link>
-      </div> */}
-      <ul className="menu menu-horizontal hidden items-center justify-center gap-12 md:flex">
+      <ul className="menu menu-horizontal hidden items-center justify-center gap-12 lg:flex">
         <li>
-          <Link href={"/about-me"}>
-            <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
-              à PROPOS
-            </p>
-          </Link>
-        </li>
-        <li>
-          <details close>
+          <details>
             <summary className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
               Services
             </summary>
             <ul>
               <li className="">
-                <Link href={"/services"}>
+                <Link href={"/services/custom-websites"}>
                   <p className="text-white hover:text-gallifreyanGold md:text-base">
                     Sites personnalisés
                   </p>
                 </Link>
               </li>
               <li className="">
-                <Link href={"/services"}>
+                <Link href={"/services/landing-pages"}>
                   <p className="text-white hover:text-gallifreyanGold md:text-base">
                     Landing pages & Microsites
                   </p>
                 </Link>
               </li>
               <li className="">
-                <Link href={"/services"}>
+                <Link href={"/services/website-rework"}>
                   <p className="text-white hover:text-gallifreyanGold md:text-base">
                     Refonte Site Web
                   </p>
                 </Link>
               </li>
               <li className="">
-                <Link href={"/services"}>
+                <Link href={"/services/web-applications"}>
                   <p className="text-white hover:text-gallifreyanGold md:text-base">
                     Application Web
                   </p>
@@ -112,9 +88,16 @@ export default function Header() {
           </details>
         </li>
         <li>
-          <Link href={"/pricing"}>
+          <Link href={"/projects"}>
             <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
-              Prix
+              Réalisations
+            </p>
+          </Link>
+        </li>
+        <li>
+          <Link href={"/about-me"}>
+            <p className="font-goodtimes text-white hover:text-gallifreyanGold md:text-base lg:text-xl">
+              à PROPOS
             </p>
           </Link>
         </li>

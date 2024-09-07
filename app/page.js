@@ -2,6 +2,7 @@ import Hero from "@/components/sections/Hero";
 import Contact from "@/components/sections/Contact";
 import Starfield from "react-starfield";
 import MailSection from "@/components/sections/MailSection";
+import HomeServices from "@/components/sections/HomeServices";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       />
       <Hero />
       <MailSection />
+      <HomeServices />
       {/* <Contact /> */}
     </main>
   );
